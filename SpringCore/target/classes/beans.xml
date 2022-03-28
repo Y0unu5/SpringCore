@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans 
+	     http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<!-- this is our bean -->
+
+	<bean class="com.tns.spring.Student" name="student1">
+		<property name="studentId"  value="2324" />
+		
+		<property name="studentName" value="Sim"/>
+			
+		<property name="studentAddress" value="Chennai"/>
+			
+
+
+
+
+
+	</bean>
+	
+	<!-- this is our  2 bean -->
+	
+	<bean class="com.tns.spring.Student" name="student2">
+		<property name="studentId"  value="23424" />
+		
+		<property name="studentName" value="Fim"/>
+			
+		<property name="studentAddress" value="Chennai"/>
+			
+
+
+
+
+
+	</bean>
+</beans>
+        
+        
